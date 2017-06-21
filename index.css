@@ -1,0 +1,117 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  line-height: 24px;
+  background: #f2f2f2;
+  margin: 0 auto;
+  -webkit-text-size-adjust: 100% !important; }
+
+body > iframe, html > iframe, body > div:not(#app) {
+  display: none; }
+
+ul, li, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+input, textarea, select {
+  -webkit-appearance: none; }
+
+input:focus {
+  outline: 0; }
+
+input::-webkit-date-and-time-value {
+  margin: 0; }
+
+p {
+  line-height: 24px;
+  word-wrap: break-word; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+strong {
+  font-weight: bold; }
+
+img {
+  vertical-align: middle; }
+
+.xa-txt-red {
+  color: #FF2C4F; }
+
+.xa-txt-orange {
+  color: #FF9900; }
+
+.xa-txt-yellow {
+  color: yellow; }
+
+.xa-txt-green {
+  color: #0A9A35; }
+
+.xa-txt-blue {
+  color: #268dff; }
+
+.xa-txt-gray {
+  color: gray; }
+
+.xa-txt-white {
+  color: white; }
+
+.xa-txt-black {
+  color: black; }
+
+.xa-bg-red {
+  background: #FF2C4F; }
+
+.xa-bg-orange {
+  background: #FF9900; }
+
+.xa-bg-yellow {
+  background: yellow; }
+
+.xa-bg-green {
+  background: #0A9A35; }
+
+.xa-bg-blue {
+  background: #268dff; }
+
+.xa-bg-gray {
+  background: gray; }
+
+.xa-bg-white {
+  background: white; }
+
+.xa-bg-black {
+  background: black; }
+
+.xa-flex {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.xa-webki-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

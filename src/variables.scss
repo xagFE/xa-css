@@ -1,0 +1,21 @@
+@charset "utf-8";
+// color
+$red:	  	#FF2C4F;
+$orange:	#FF9900;
+$yellow:	yellow;
+$green:		#0A9A35;
+$blue:		#268dff;
+$gray:		gray;
+$white:		white;
+$black:		black;
+
+$colors:(
+	"red":      $red,
+	"orange":   $orange,
+	"yellow":   $yellow,
+	"green":    $green,
+	"blue":     $blue,
+	"gray":     $gray,
+	"white":    $white,
+	"black":    $black
+)

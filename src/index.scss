@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "./variables.scss";
+@import "./reset.scss";
+
+.xa {
+  &-txt {
+    @each $key, $val in $colors {
+      &-#{$key} {color: $val;}
+    }
+  }
+  &-bg {
+    @each $key, $val in $colors {
+      &-#{$key} {background: $val;}
+    }
+  }
+  &-flex {
+    flex: 1;
+  }
+  &-webki-box {
+    display: flex;
+  }
+}
