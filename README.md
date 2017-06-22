@@ -9,7 +9,7 @@ $ npm install --save xa-css
 ```
 
 ```javascript
-// import a css file
+// import css file
 import 'xa-css'
 ```
 
