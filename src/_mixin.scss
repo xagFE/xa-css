@@ -1,0 +1,12 @@
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin ellipsis-flex($line) {
+  @include ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  max-height: $line * 24px;
+}
